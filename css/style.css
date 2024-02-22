@@ -1,0 +1,18 @@
+* {
+    font-family: "Open Sans", sans-serif;
+}
+  
+body {
+    background: url("../images/concrete_seamless.png");
+}
+
+.container {
+    max-width: 1800px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: #015770;
+}
+
+

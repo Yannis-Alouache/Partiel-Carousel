@@ -1,0 +1,28 @@
+#toolbar-toggle {
+    color: #58abb5;
+    cursor: pointer;
+}
+
+.toolbar {
+    display: none;
+    button {
+        margin-right: 10px;
+    }
+}
+
+.slider {
+    img {
+        transform: rotate(-0.03turn);  
+        padding: 15px;
+        background-color: white;
+        -webkit-box-shadow: 0px 0px 18px -6px #000000; 
+        box-shadow: 0px 0px 18px -6px #000000;
+    }
+
+    figcaption {
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    width: 1000px;
+}

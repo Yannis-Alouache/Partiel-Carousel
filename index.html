@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <title>Sliders</title>
+    <link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/slider.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Sliders, les mondes parallèles ;-)</h1>
+        <div id="toolbar-toggle">
+            <i class="fa-solid fa-arrow-down"></i>
+            <span>Barre d'outils</span>
+        </div>
+        <div class="toolbar">
+            <button id="slider-previous">
+                <i class="fa-solid fa-backward"></i>
+            </button>
+            <button id="slider-toggle">
+                <i class="fa-solid fa-play"></i>
+            </button>
+            <button id="slider-next">
+                <i class="fa-solid fa-forward"></i>
+            </button>
+            <button id="slider-random">
+                <i class="fa-solid fa-shuffle"></i>
+            </button>
+        </div>
+
+        <figure class="slider" id="slider">
+            <div data-active="true">
+                <img title="Image 1" src="images/1.jpg" alt="Image 1">
+                <figcaption>Cool Wall</figcaption>
+            </div>
+            <div data-active="false">
+                <img title="Image 2" src="images/2.jpg" alt="Image 2">
+                <figcaption>Fast Cars</figcaption>
+            </div>
+            <div data-active="false">
+                <img title="Image 3" src="images/3.jpg" alt="Image 3">
+                <figcaption>Colorful Building</figcaption>
+            </div>
+            <div data-active="false">
+                <img title="Image 4" src="images/4.jpg" alt="Image 4">
+                <figcaption>Building at Night</figcaption>
+            </div>
+            <div data-active="false">
+                <img title="Image 5" src="images/5.jpg" alt="Image 5">
+                <figcaption>City at Night</figcaption>
+            </div>
+            <div data-active="false">
+                <img title="Image 6" src="images/6.jpg" alt="Image 6">
+                <figcaption>Paris</figcaption>
+            </div>
+        </figure>
+    </div>
+
+    <script
+        src="https://code.jquery.com/jquery-3.7.1.slim.min.js"
+        integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8="
+        crossorigin="anonymous">
+    </script>
+    <script src="https://kit.fontawesome.com/b026501205.js" crossorigin="anonymous"></script>
+    <script src="js/slider.js"></script>
+</body>
+</html>
